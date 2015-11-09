@@ -1,0 +1,76 @@
+@import url("fixes.css");
+
+.sidebar {
+  background-color: WhiteSmoke;
+  display: inline-block;
+  height: 100%;
+  overflow: scroll;
+  padding: 1.5625em;
+  vertical-align: top;
+  width: 18.75em;
+}
+
+.right-panel {
+  display: inline-block;
+  height: 100%;
+  overflow: scroll;
+  padding: 3.125em;
+  width: calc(100% - 18.75em);
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.headshot {
+  border-radius: 50%;
+  border: 0.3125em outset #70BCE2;
+  display: block;
+  margin: 0 auto;
+  width: 12.5em;
+  width: 80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: #70BCE2;
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 0.25em;
+}
+
+h2 {
+  margin-bottom: 0.25em;
+}
+
+a {
+  color: #70BCE2;
+  font-family: 'PT Serif', serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border-color: #70BCE2;
+  border-style: solid;
+  width: 100%;
+}
+
+h2 + hr {
+  border-color: #E6E6E6;
+  border-style: solid;
+  margin: 0;
+  width: 6.25em;
+}
